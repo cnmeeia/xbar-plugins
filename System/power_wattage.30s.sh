@@ -15,7 +15,7 @@ if [ -z "$power_wattage" ]
 then
   echo "🔋"
 else
-  echo "🔌${power_wattage}"
+  echo "功率 ${power_wattage}"
 fi
 
 echo "---"
